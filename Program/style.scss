@@ -12,25 +12,21 @@ body{
     height: 100vh;
     width: 100vw;
 }
-#left{
+#top{
+    border: 2px solid $third_col;
     background-color: $second_col;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    
-    width: 20%;
-    height: auto;
-    border: 2px solid $third_col;
-
+    height: 10%;
 }
 #product_list{
     color: $main_col;
     width: 100px;
     height: 20px;
-
-    margin: 10px;
+    margin: 40px;
+    text-align: center;
     background-color: $third_col;
     border: 2px solid $third_col;
 }
@@ -39,4 +35,20 @@ body{
     color: $neveruse_col;
     background-color: $main_col;
     border: 2px solid $third_col;
+}
+
+#day{
+    color: $neveruse_col;
+    font-size: larger;
+}
+
+#bottom{
+    height: 88.7%;
+    width: 99.7%;
+    background-color: $second_col;
+    //border: 2px solid $third_col;
+    
+    .bottom_divs{
+        display: none;
+    }
 }

@@ -9,23 +9,22 @@ body {
   width: 100vw;
 }
 
-#left {
+#top {
+  border: 2px solid rgb(255, 211, 105);
   background-color: rgb(57, 62, 70);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  width: 20%;
-  height: auto;
-  border: 2px solid rgb(255, 211, 105);
+  height: 10%;
 }
 
 #product_list {
   color: rgb(34, 40, 49);
   width: 100px;
   height: 20px;
-  margin: 10px;
+  margin: 40px;
+  text-align: center;
   background-color: rgb(255, 211, 105);
   border: 2px solid rgb(255, 211, 105);
 }
@@ -34,4 +33,18 @@ body {
   color: rgb(238, 238, 238);
   background-color: rgb(34, 40, 49);
   border: 2px solid rgb(255, 211, 105);
+}
+
+#day {
+  color: rgb(238, 238, 238);
+  font-size: larger;
+}
+
+#bottom {
+  height: 88.7%;
+  width: 99.7%;
+  background-color: rgb(57, 62, 70);
+}
+#bottom .bottom_divs {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
