@@ -1,0 +1,42 @@
+$main_col:rgb(34, 40, 49);
+$second_col: rgb(57, 62, 70);
+$third_col:rgb(255, 211, 105);
+$neveruse_col:rgb(238, 238, 238);
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: $main_col;
+}
+#all{
+    height: 100vh;
+    width: 100vw;
+}
+#left{
+    background-color: $second_col;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    width: 20%;
+    height: auto;
+    border: 2px solid $third_col;
+
+}
+#product_list{
+    color: $main_col;
+    width: 100px;
+    height: 20px;
+
+    margin: 10px;
+    background-color: $third_col;
+    border: 2px solid $third_col;
+}
+
+#product_list:hover{
+    color: $neveruse_col;
+    background-color: $main_col;
+    border: 2px solid $third_col;
+}
