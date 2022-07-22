@@ -19,18 +19,25 @@ body {
   height: 10%;
 }
 
-#product_list {
-  color: rgb(34, 40, 49);
-  width: 100px;
-  height: 20px;
+.product_list {
+  color: rgb(255, 211, 105);
+  width: auto;
+  height: auto;
   margin: 40px;
   text-align: center;
-  background-color: rgb(255, 211, 105);
   border: 2px solid rgb(255, 211, 105);
 }
 
-#product_list:hover {
-  color: rgb(238, 238, 238);
+#start_butt {
+  background-color: rgb(34, 40, 49);
+}
+
+#next_month {
+  background-color: rgb(34, 40, 49);
+  display: none;
+}
+
+.product_list:hover {
   background-color: rgb(34, 40, 49);
   border: 2px solid rgb(255, 211, 105);
 }
@@ -47,4 +54,10 @@ body {
 }
 #bottom .bottom_divs {
   display: none;
+}
+
+#country {
+  height: 88.7%;
+  width: 99.7%;
+  background-color: rgb(57, 62, 70);
 }/*# sourceMappingURL=style.css.map */

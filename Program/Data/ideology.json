@@ -1,0 +1,38 @@
+[
+    {
+         "code": "KON", 
+         "name": "Konserwatyzm",
+         "color": "rgb(53, 119, 255)"
+     },
+     {
+        "code": "LIB", 
+        "name": "Liberalizm",
+        "color": "rgb(254, 170, 58)"
+    },
+    {
+        "code": "SOC", 
+        "name": "Socjalizm",
+        "color": "rgb(254, 86, 58)"
+    },
+    {
+        "code": "KOM", 
+        "name": "Komunizm",
+        "color": "rgb(254, 26, 14)"
+    },
+    {
+        "code": "ANA", 
+        "name": "Anarchizm",
+        "color": "rgb(254, 26, 46)"
+    },
+    {
+        "code": "NAC", 
+        "name": "Nacjonalizm",
+        "color": "rgb(13, 2, 19)"
+    },
+    {
+        "code": "FAS", 
+        "name": "Faszyzm",
+        "color": "rgb(53, 26, 19)"
+    }
+ ]
+ 

@@ -21,18 +21,22 @@ body{
     justify-content: center;
     height: 10%;
 }
-#product_list{
-    color: $main_col;
-    width: 100px;
-    height: 20px;
+.product_list{
+    color: $third_col;
+    width: auto;
+    height: auto;
     margin: 40px;
     text-align: center;
-    background-color: $third_col;
     border: 2px solid $third_col;
 }
-
-#product_list:hover{
-    color: $neveruse_col;
+#start_butt{
+    background-color: $main_col ;
+}
+#next_month{
+    background-color: $main_col;
+    display: none;
+}
+.product_list:hover{
     background-color: $main_col;
     border: 2px solid $third_col;
 }
@@ -51,4 +55,10 @@ body{
     .bottom_divs{
         display: none;
     }
+}
+
+#country{
+    height: 88.7%;
+    width: 99.7%;
+    background-color: $second_col;
 }
