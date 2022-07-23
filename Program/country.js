@@ -1,11 +1,3 @@
-const country = fetch('Data/countries.json').then(res => res.json()).then(data => countries_data = data);
-const ideologies = fetch('Data/ideology.json').then(res => res.json()).then(data => ideologies_data = data);
-const GB = fetch('Great_Brittany/events.json').then(res => res.json()).then(data => events_data = data);
-let countries_data = {};
-let ideologies_data = {};
-let events_data = {};
-let month = 0;
-
 let start_butt = document.getElementById("start_butt");
 let money_butt = document.getElementById("money_butt");
 let leader_butt = document.getElementById("leader_butt");
@@ -13,8 +5,12 @@ let ideology_butt = document.getElementById("ideo_butt");
 let eventlog = document.getElementById("event_butt");
 let next_month = document.getElementById("next_month");
 
+let month = 0;
+
+
+
+
 start_butt.addEventListener("click", async function gh(){
-    await country;
     start_butt.style.display = "none";
     next_month.style.display = "block"
     leader_butt.innerHTML = "Leader: " + countries_data[0].leader;
